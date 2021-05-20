@@ -14,7 +14,7 @@ const io = socketIo(server, {
 
 app.set('view engine', 'ejs')
 
-app.get('/home', (req, res) => {
+app.get('/', (req, res) => {
     res.render('home')
 })
 
