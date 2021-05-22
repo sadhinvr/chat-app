@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: open sans;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 22px;
+    color: blueviolet
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    color: #fff;
+}
+
+.app {
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: 0 3px 10px #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    background: #000;
+}
+
+.nav {
+    cursor: pointer;
+    display: inline-block;
+    align-self: flex-start;
+}
+
+.messages_holder {
+    background: #333;
+    flex: 1;
+    border-radius: 10px;
+    padding: 10px;
+    max-height: 100%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.message_wraper {
+    display: inline-block;
+    max-width: 45%;
+    align-self: flex-start;
+    display: flex;
+    column-gap: 8px;
+}
+
+.message {
+    padding: 8px;
+    border-radius: 0px 20px 20px 20px;
+    margin-top: 14px;
+    background: #fff;
+    color: #111;
+}
+
+#you {
+    align-self: flex-end;
+    text-align: right;
+    flex-direction: row-reverse;
+}
+
+#you .message {
+    border-radius: 20px 0px 20px 20px;
+    background: dodgerblue;
+    color: #fff;
+}
+
+.user {
+    color: #fff;
+    font-size: 12px;
+    padding: 8px;
+    background: dodgerblue;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.envolope {
+    margin-top: 20px;
+    display: flex;
+    column-gap: 20px;
+}
+
+.inp {
+    flex: 1;
+    outline: none;
+    border: #393939 1px solid;
+    background: #333;
+    padding: 10px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.sub-btn {
+    outline: none;
+    border: #ddd 1px solid;
+    background: dodgerblue;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    border: #00b5fd 0px;
+}
+
+.user-1 {
+    background: #931bab;
+}
+
+.user-2 {
+    background: #1bad13;
+    /*   color:#111; */
+}
+
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #777;
+
+}
+
+
+/* home  */
+
+.profile {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.img {
+    width: 30px;
+    height: 30px;
+    background: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.active_users {
+    flex: 1;
+    margin-top: 20px;
+    overflow: auto;
+}
+
+.active_user {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    cursor: pointer;
+    background: #222;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.active_user:hover {
+    background: #333;
+}
+
+/* registry */
