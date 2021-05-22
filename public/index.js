@@ -27,7 +27,7 @@ function chat(e) {
 
     app.innerHTML = `<div class="nav">
       <svg onclick="homeMock()" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-       viewBox="0 0 447.243 447.243" style="width:20px;margin-bottom:10px;" xml:space="preserve" fill="currentColor">
+       viewBox="0 0 447.243 447.243" style="width:20px;" xml:space="preserve" fill="currentColor">
   <g>
       <g>
           <path d="M420.361,192.229c-1.83-0.297-3.682-0.434-5.535-0.41H99.305l6.88-3.2c6.725-3.183,12.843-7.515,18.08-12.8l88.48-88.48
@@ -39,17 +39,9 @@ function chat(e) {
       </g>
   </g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
   </svg>
+  <div>${state.name}</div>
     </div>
     <div class="messages_holder" id="msgs">
-      
-      <div class="message_wraper ">
-        <span class="user user-1">J</span>
-        <div class="message"> hello world!</div>
-      </div>
-      <div id="you" class="message_wraper">
-        <span class="user user-2">S</span>
-        <div class="message"> hello world!</div>
-      </div>
       
     </div>
     

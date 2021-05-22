@@ -36,8 +36,11 @@ body {
 
 .nav {
     cursor: pointer;
-    display: inline-block;
+    display: inline-flex;
     align-self: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+    column-gap: 10px;
 }
 
 .messages_holder {
@@ -193,5 +196,3 @@ body {
 .active_user:hover {
     background: #333;
 }
-
-/* registry */
